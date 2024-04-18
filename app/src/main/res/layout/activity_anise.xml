@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4C5A1"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".AniseAct">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        app:srcCompat="@drawable/anise" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="412dp"
+        android:layout_margin="10dp"
+        android:text="Anise is a spice with a licorice-like flavor that offers various health benefits. It aids digestion, relieves respiratory symptoms, and possesses antimicrobial properties. Anise may also provide relief from menstrual symptoms, reduce inflammation, and promote oral health. Additionally, it's rich in antioxidants and can help alleviate stress. Incorporating anise into your diet or using it for aromatherapy purposes can contribute to overall health and well-being. As with any herbal remedy, it's advisable to consult with a healthcare professional before using anise, especially if you have any underlying health conditions or are pregnant."
+        android:textAlignment="center"
+        android:textColor="#976429"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/aniseBack"
+        android:layout_width="146dp"
+        android:layout_height="67dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="#553A1A"
+        android:onClick="aniseBtn"
+        android:text="Back" />
+
+</LinearLayout>

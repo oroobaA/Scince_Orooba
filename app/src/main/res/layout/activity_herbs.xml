@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/herbs"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".HerbsAct">
+
+    <Button
+        android:id="@+id/mint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#08F26E"
+        android:onClick="mintbtn"
+        android:text="Mint" />
+
+    <Button
+        android:id="@+id/sage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#08F26E"
+        android:onClick="sagebtn"
+        android:text="Sage" />
+
+    <Button
+        android:id="@+id/chamamole"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#08F26E"
+        android:onClick="chamamolebtn"
+        android:text="Chamamole" />
+
+    <Button
+        android:id="@+id/zaatar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#08F26E"
+        android:onClick="zaatarbtn"
+        android:text="Zaatar" />
+
+    <Button
+        android:id="@+id/felty"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#08F26E"
+        android:onClick="feltybtn"
+        android:text="felty_germander" />
+
+    <Button
+        android:id="@+id/majoram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#08F26E"
+        android:onClick="majorambtn"
+        android:text="Majoram" />
+
+    <Button
+        android:id="@+id/backHerbs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#08F26E"
+        android:onClick="backHerbsbtn"
+        android:text="Back" />
+</LinearLayout>

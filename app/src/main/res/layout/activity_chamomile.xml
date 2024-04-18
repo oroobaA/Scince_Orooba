@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0AE168"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ChamomileAct">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        app:srcCompat="@drawable/chamomile" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="334dp"
+        android:layout_margin="10dp"
+        android:text="Chamomile, a versatile herb, offers numerous health benefits. It promotes relaxation and better sleep, aids digestion, and has anti-inflammatory effects that benefit various conditions such as arthritis and skin irritation. Chamomile strengthens the immune system, relieves menstrual cramps, and supports respiratory health. Additionally, it may help regulate blood sugar levels and improve skin health. Incorporating chamomile into your routine, whether through tea, supplements, or skincare products, can provide these advantages. However, it's wise to consult with a healthcare professional before using chamomile for medicinal purposes, particularly if you have underlying health issues or are taking medications."
+        android:textAlignment="center"
+        android:textColor="#105013"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/chamomileBack"
+        android:layout_width="146dp"
+        android:layout_height="67dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="#00421D"
+        android:onClick="chamomileBtn"
+        android:text="Back" />
+</LinearLayout>

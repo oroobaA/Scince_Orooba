@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/seeds"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SeedsAct">
+
+    <Button
+        android:id="@+id/flax"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="flaxbtn"
+        android:layout_margin="10dp"
+        android:backgroundTint="#E4C5A1"
+        android:text="Flax" />
+
+    <Button
+        android:id="@+id/anise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="anisebtn"
+
+        android:backgroundTint="#E4C5A1"
+        android:text="Anise" />
+
+    <Button
+        android:id="@+id/cumin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="cuminbtn"
+
+        android:backgroundTint="#E4C5A1"
+        android:text="Cumin" />
+
+    <Button
+        android:id="@+id/nigella"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="nigellabtn"
+
+        android:backgroundTint="#E4C5A1"
+        android:text="Nigella" />
+
+    <Button
+        android:id="@+id/chia"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="chiabtn"
+
+        android:backgroundTint="#E4C5A1"
+        android:text="Chia" />
+
+    <Button
+        android:id="@+id/halim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:onClick="halimbtn"
+
+        android:backgroundTint="#E4C5A1"
+        android:text="Halim" />
+
+    <Button
+        android:id="@+id/backSeeds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E4C5A1"
+        android:onClick="backSeedsbtn"
+        android:text="Back" />
+</LinearLayout>

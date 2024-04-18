@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0AE168"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".SageAct">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/sage" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="334dp"
+        android:layout_margin="10dp"
+        android:text="Sage, a versatile herb, provides a wide array of health benefits. It aids digestion by reducing gas and bloating, while also potentially enhancing memory and cognitive function. Rich in antioxidants, sage supports overall health by combating oxidative stress. Its antimicrobial properties make it effective against sore throats and respiratory infections. Sage may also alleviate menopausal symptoms like hot flashes and promote oral health by preventing dental issues. Additionally, research suggests it may help regulate blood sugar levels. Incorporating sage into your daily routine can unlock these health benefits, but it's essential to seek guidance from a healthcare professional for personalized advice."
+        android:textAlignment="center"
+        android:textColor="#105013"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/sageBack"
+        android:layout_width="146dp"
+        android:layout_height="67dp"
+        android:layout_margin="10dp"
+        android:onClick="sageBtn"
+        android:backgroundTint="#00421D"
+        android:text="Back" />
+</LinearLayout>

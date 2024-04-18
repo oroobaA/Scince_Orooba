@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0AE168"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".FeltyAct">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        app:srcCompat="@drawable/felty" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="439dp"
+        android:layout_margin="10dp"
+        android:text="Felty germander, also known as Teucrium polium, is a medicinal herb with several potential health benefits. It has been traditionally used to aid digestion, reduce inflammation, and protect the liver. Rich in antioxidants, it may also help neutralize harmful free radicals and support overall health. Additionally, felty germander shows promise in regulating blood sugar levels and inhibiting microbial growth. While it has a long history of use in traditional medicine, further research is needed to fully understand its effects and ensure its safety. It's advisable to consult with a healthcare professional before using felty germander for medicinal purposes, especially if you have underlying health conditions or are taking medications."
+        android:textAlignment="center"
+        android:textColor="#105013"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/feltyBack"
+        android:layout_width="146dp"
+        android:layout_height="67dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="#00421D"
+        android:onClick="feltyBtn"
+        android:text="Back" />
+
+</LinearLayout>

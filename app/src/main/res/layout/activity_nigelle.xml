@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4C5A1"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".NigelleAct">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        app:srcCompat="@drawable/nigelle" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="match_parent"
+        android:layout_height="412dp"
+        android:layout_margin="10dp"
+        android:text="Black seed, also known as black cumin, offers a range of health benefits. It contains antioxidants and anti-inflammatory compounds that protect cells from damage and reduce inflammation in the body. Black seed supports immune function, respiratory health, and digestive health. It may also promote heart health, aid in weight management, and improve skin health. Incorporating black seed into your diet or using it as a supplement can provide these benefits, but it's important to use it in moderation and consult with a healthcare professional, especially if you have any underlying health conditions or are pregnant."
+        android:textAlignment="center"
+        android:textColor="#976429"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/niglleBack"
+        android:layout_width="146dp"
+        android:layout_height="67dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="#553A1A"
+        android:onClick="niglleBtn"
+        android:text="Back" />
+</LinearLayout>

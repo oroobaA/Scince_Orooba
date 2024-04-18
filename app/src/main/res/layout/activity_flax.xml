@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4C5A1"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".FlaxAct">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        app:srcCompat="@drawable/flax" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="334dp"
+        android:layout_margin="10dp"
+        android:text="Flax seeds are nutrient-packed seeds known for their health benefits. They are rich in omega-3 fatty acids, fiber, and antioxidants. Incorporating flax seeds into your diet can promote heart health by lowering cholesterol and blood pressure levels, support digestive health, and aid in blood sugar control. Additionally, flax seeds may help with weight management, boost brain function, and reduce the risk of chronic diseases like cancer. Enjoy flax seeds ground or milled in smoothies, yogurt, oatmeal, or baked goods to reap their nutritional benefits. As with any dietary addition, consult with a healthcare professional, especially if you have any underlying health conditions or are taking medications."
+        android:textAlignment="center"
+        android:textColor="#976429"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/flaxBack"
+        android:layout_width="146dp"
+        android:layout_height="67dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="#553A1A"
+        android:onClick="flaxBtn"
+        android:text="Back" />
+</LinearLayout>

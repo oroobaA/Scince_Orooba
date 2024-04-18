@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0AE168"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MintAct">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="311dp"
+        app:srcCompat="@drawable/mint" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="334dp"
+        android:layout_margin="10dp"
+        android:text="Mint is a herb known for its refreshing taste and aroma. It contains essential nutrients like vitamins and minerals, along with antioxidants. Mint helps with digestion, freshens breath, and supports respiratory health. Its antimicrobial and anti-inflammatory properties benefit skin and overall health. Additionally, mint aids in weight management. Enjoy mint in moderation for its numerous health benefits."
+        android:textAlignment="center"
+        android:textColor="#105013"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/mintBack"
+        android:layout_width="146dp"
+        android:layout_height="67dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="#00421D"
+        android:onClick="minteBtn"
+        android:text="Back" />
+</LinearLayout>

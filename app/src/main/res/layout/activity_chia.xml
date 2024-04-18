@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E4C5A1"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ChiaAct">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        app:srcCompat="@drawable/chia" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="412dp"
+        android:layout_margin="10dp"
+        android:text="Chia seeds are tiny powerhouses packed with nutrients and health benefits. Rich in fiber, protein, omega-3 fatty acids, vitamins, and minerals, they support various aspects of health. Chia seeds promote heart health by lowering cholesterol and blood pressure, aid digestion and regulate blood sugar levels. They also contribute to weight management, bone health, and hydration. Additionally, chia seeds are antioxidant-rich, protecting cells from damage and reducing the risk of chronic diseases. Easily incorporated into your diet, chia seeds offer a convenient way to boost nutrition and overall well-being. As with any dietary addition, moderation is key, especially for individuals with specific health conditions or dietary restrictions. It's always advisable to consult with a healthcare professional before making significant changes to your diet."
+        android:textAlignment="center"
+        android:textColor="#976429"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/chiaBack"
+        android:layout_width="146dp"
+        android:layout_height="67dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="#553A1A"
+        android:onClick="chiaBtn"
+        android:text="Back" />
+</LinearLayout>

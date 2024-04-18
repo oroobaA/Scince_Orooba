@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0AE168"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".ZaatarAct">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="196dp"
+        app:srcCompat="@drawable/zaatar" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="334dp"
+        android:layout_margin="10dp"
+        android:text="Za'atar is a flavorful blend of herbs and spices that offers various health benefits. It's rich in antioxidants and anti-inflammatory compounds, which can help reduce oxidative stress and inflammation in the body. Za'atar also aids digestion, supports immune function, and may improve cognitive health. Additionally, it contains heart-healthy ingredients and has antibacterial properties. Incorporating za'atar into your meals adds both taste and nutritional value, making it a versatile and beneficial seasoning option.   "
+        android:textAlignment="center"
+        android:textColor="#105013"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/zaatarBack"
+        android:layout_width="146dp"
+        android:layout_height="67dp"
+        android:layout_margin="10dp"
+        android:backgroundTint="#00421D"
+        android:onClick="zaatarBtn"
+        android:text="Back" />
+</LinearLayout>
